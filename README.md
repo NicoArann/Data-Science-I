@@ -1,6 +1,6 @@
 # 🍷 Predicción de calidad de vino tinto con Árbol de Decisión
 
-Este proyecto fue desarrollado como entrega final del curso **Data Science I** de Coderhouse. Se trabajó con un dataset de vinos tintos y se aplicaron técnicas de análisis exploratorio, selección de variables y modelado supervisado para predecir la calidad del vino en tres categorías: `baja`, `media` y `alta`.
+Este proyecto fue desarrollado en marco del curso **Data Science I** de Coderhouse. Se trabajó con un dataset de vinos tintos y se aplicaron técnicas de análisis exploratorio, selección de variables y modelado supervisado para predecir la calidad del vino en tres categorías: `baja`, `media` y `alta`.
 
 ---
 
@@ -80,29 +80,12 @@ Se utilizó codificación manual para asignar valores numéricos a las clases (`
 
 ---
 
-## 🌈 Interpretabilidad del modelo
-
-Se incluyó un gráfico de **importancia de características** basado en el modelo entrenado.
-
-También se visualizó el Árbol de Decisión con una **profundidad limitada a 3 niveles**, para interpretar las decisiones iniciales sin afectar el modelo original.
-
----
-
 ## 📌 Conclusiones
 
 - `alcohol` resultó ser la variable más predictiva
 - El modelo tiende a predecir mejor la clase `baja`
 - Existen zonas de superposición entre `media` y `alta` que dificultan la separación
 - El modelo es interpretable y presenta una buena base para aplicar técnicas de mejora
-
----
-
-## 🧪 Cómo ejecutar el proyecto
-
-1. Clonar este repositorio
-2. Abrir el archivo `Proyecto_ParteIII_Arancibia.ipynb`
-3. Cargar el dataset `WineQT.csv` en la ruta indicada
-4. Ejecutar cada celda de forma secuencial
 
 ---
 
