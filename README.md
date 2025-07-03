@@ -1,5 +1,7 @@
 Nota: La entrega final "Proyecto_ParteIII_Arancibia" la encontrarán en la carpeta "Entregas".
 
+---
+
 # 🍷 Predicción de calidad de vino tinto con Árbol de Decisión
 
 Este proyecto fue desarrollado en marco del curso **Data Science I** de Coderhouse. Se trabajó con un dataset de vinos tintos y se aplicaron técnicas de análisis exploratorio, selección de variables y modelado supervisado para predecir la calidad del vino en tres categorías: `baja`, `media` y `alta`.
